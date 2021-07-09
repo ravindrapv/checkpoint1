@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----assignment----*/
+.header
+{
+    text-align: center;
+    font-size: 36px;
+    height: 80px;
+    width: 1000px;
+    background-color: rgb(7,21,76);
+    margin: auto;
+    padding: auto;
+}
+img{
+    
+    height: 300px;
+    width: 350px;
+}
+ .continer
+{
+    width: 1000px;
+    height: 350px;
+    border: 1px;
+    margin: auto;
+    display: inline-block;
+    
+}
+
+.continer2
+{   
+    width: 950px;
+    height: 350px;
+    border: 1px;
+    padding-right:50px;
+} 
+.p1{
+font-size: medium; 
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 32px;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 200px;
+}
+.section1 {
+    display: inline-flex;
+}
+.image_one{
+    display: inline-block;
+    padding: 20px;
+}
+.image_one img {
+    width: 350px;
+    /* height: 350px; */
+}
+
+.image_one_data {
+    display: inline-block;
+    padding: 20px;
+}
+.image_one_data p {
+    font-size: 10px;
+}
+
+.image_two 
+{
+    margin-left:auto;
+    padding: 30px;
+    float:right;width:49%
+}
+.image3{
+    
+    margin-right:auto;
+    padding: 30px;
+    float:right;width:49%
+    }
